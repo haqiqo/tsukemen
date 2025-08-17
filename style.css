@@ -1,10 +1,39 @@
 body {
-  font-family: sans-serif;
-  background-color: #E6D9C1;
+  font-family: "Libertinus Sans", sans-serif;
+  background-color: #4c3a18;
   text-align: center;
   padding: 50px;
+  color: #f4dfb0; 
+  font-size: 18px;
+}
+
+.libertinus-sans-regular {
+  font-family: "Libertinus Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libertinus-sans-bold {
+  font-family: "Libertinus Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libertinus-sans-regular-italic {
+  font-family: "Libertinus Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 h1 {
-  color: #d35400;
+  color: #ffb01d;
 }
+
+.tsukemen-list { display: flex; 
+justify-content: center;
+gap: 20px; 
+margin-top: 20px; }
+
+.shop { text-align: center; }
+
+@media (max-width: 800px) { .tsukemen-list {flex-direction: column; gap: 15px; font-size: 14px; }}
