@@ -36,4 +36,11 @@ margin-top: 20px; }
 
 .shop { text-align: center; }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* keeps it centered */
+}
+
 @media (max-width: 800px) { .tsukemen-list {flex-direction: column; gap: 15px; font-size: 14px; }}
